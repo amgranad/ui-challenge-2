@@ -24,6 +24,15 @@ input[type="text"] {
   margin-bottom: 5%;
 }
 
+.invalid-username {
+  color: red;
+  text-align: right;
+  width: 100%;
+  position: relative;
+  top: -20px;
+  right: -35px;
+}
+
 select {
   font-size: 1.5em;
   padding: 0.75em;
@@ -46,13 +55,14 @@ select {
 .select-box {
   position: relative;
   margin-bottom: 5%;
+  margin-right: 0;
 }
 
 .select-style::before {
   content: '';
   position: absolute;
-  left: 97%;
-  top: 50%;
+  left: 96%;
+  top: 53%;
   z-index: 100;
   background: url('images/form-elements-sprite.png') no-repeat 82.946% 49.558%;
 	background-size: 400px 150px;
